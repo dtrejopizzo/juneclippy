@@ -82,6 +82,10 @@ function ChatMessageContent({
       order: 0,
       component: <Markdown content={message.content} />,
     },
+    {
+      order: 3,
+      component: sourceData[0] ? <ChatSources data={sourceData[0]} /> : null,
+    },
   ];
 
   return (
