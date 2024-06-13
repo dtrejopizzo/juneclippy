@@ -15,7 +15,7 @@ export default function ChatAvatar({ role }: { role: string }) {
       <Image
         className="rounded-md"
         src="/llama.png"
-        alt="Llama Logo"
+        alt="Logo"
         width={24}
         height={24}
         priority
